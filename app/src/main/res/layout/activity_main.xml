@@ -9,8 +9,101 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="zhagnbinbin.com.myappportfolio.MainActivity">
 
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POPULAR MOVIESo"
+        android:id="@+id/button"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:onClick="showToastPopularMovie"
+        android:width="200dp"
+        android:background="#2E3D49"
+        android:textColor="#fefbfb"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOCK HAWK"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:onClick="showToastStockHawk"
+        android:width="200dp"
+        android:background="#2E3D49"
+        android:textColor="#fefbfb"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUILT IT BIGGER"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:onClick="showToastBuildItBigger"
+        android:width="200dp"
+        android:background="#2E3D49"
+        android:textColor="#fefbfb"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAKE YOUR APP MATERIAL"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:onClick="showToastMakeYourAppMaterial"
+        android:width="200dp"
+        android:background="#2E3D49"
+        android:textColor="#fefbfb"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New UBIQUITOUS"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:onClick="showToastNewUbiquitous"
+        android:width="200dp"
+        android:background="#2E3D49"
+        android:textColor="#fefbfb"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:onClick="showToastCapstone"
+        android:width="200dp"
+        android:background="#2E3D49"
+        android:textColor="#fefbfb"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My App Porfolio"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button"
+        android:width="200dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
 </RelativeLayout>
